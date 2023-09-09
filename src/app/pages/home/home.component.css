@@ -1,14 +1,11 @@
 .container__articles {
   margin-top: 30px;
 
+
   /*css geral do articles__others e dele mesmo*/
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-header {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-}
+

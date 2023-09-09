@@ -12,12 +12,34 @@
 .big-card__photo > img {
   width: 100%;
   min-width: 398px;
+  border-radius: 25px;
+}
+
+.big-card__title {
+  margin-top: 10px;
 }
 
 .big-card__title > h1 > a{
   margin-top: 15px;
   font-size: 20px;
 }
+
+.big-card__title > h1 > a:hover{
+  border-radius: 15px;
+  padding: 8px 15px ;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s ease-out ;
+  animation: pulse 1s ease-in-out infinite;
+
+}
+
+@keyframes pulse {
+  0% {box-shadow: 0 0 2px #c341ff, 0 0 3px #c341ff inset ;}
+  50% {box-shadow: 0 0 13px #c341ff, 0 0 13px #c341ff inset;}
+  100% {box-shadow: 0 0 3px #c341ff, 0 0 3px #c341ff inset;}
+}
+
 
 .big-card__description{
   margin-top: 20px;

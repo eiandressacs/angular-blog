@@ -9,9 +9,11 @@ export class SmallCardComponent implements OnInit{
 
   @Input()//tornar inputavel para o layout ser dinamico
   photo:string = ""
-
   @Input()
   cardTitle:string = ""
+
+  @Input()
+  Id:string = "0"
 
   constructor() {}
 

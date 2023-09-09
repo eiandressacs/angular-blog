@@ -12,3 +12,14 @@
   margin-right: 20px;
   list-style: none;
 }
+
+.container__menu-bar > ul > li > a:hover {
+  animation: pulsante 1s infinite;
+}
+
+@keyframes pulsante {
+  0% {font-size: 100%;}
+  50% {font-size: 110%;}
+  100% {font-size: 100%;}
+
+}

@@ -9,12 +9,13 @@ export class BigCardComponent implements OnInit {
 
   @Input()//tornar inputavel para o layout ser dinamico
   photo:string = ""
-
   @Input()
   cardTitle:string = ""
-
   @Input()
   cardDescription:string = ""
+
+  @Input()
+  Id:string = "0"
 
   constructor() {
 

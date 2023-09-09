@@ -11,3 +11,7 @@
  a{
   text-decoration: none;
  }
+
+ a:hover{
+  color: rgb(205, 9, 231);
+}
