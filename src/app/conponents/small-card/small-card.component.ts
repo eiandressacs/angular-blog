@@ -1,10 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
   templateUrl: './small-card.component.html',
   styleUrls: ['./small-card.component.css']
 })
-export class SmallCardComponent {
+export class SmallCardComponent implements OnInit{
+
+  @Input()//tornar inputavel para o layout ser dinamico
+  photo:string = ""
+
+  @Input()
+  cardTitle:string = ""
+
+  constructor() {}
+
+  ngOnInit(): void {
+
+  }
 
 }
