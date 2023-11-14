@@ -39,7 +39,7 @@
 }
 
 @keyframes pulse {
-  0% {box-shadow: 0 0 2px #c341ff, 0 0 3px #c341ff inset ;}
-  50% {box-shadow: 0 0 13px #c341ff, 0 0 13px #c341ff inset;}
-  100% {box-shadow: 0 0 3px #c341ff, 0 0 3px #c341ff inset;}
+  0% {box-shadow: 0 0 2px #e3dce6, 0 0 3px #e3dce6 inset ;}
+  50% {box-shadow: 0 0 13px #e3dce6, 0 0 13px #e3dce6 inset;}
+  100% {box-shadow: 0 0 3px #e3dce6, 0 0 3px #e3dce6 inset;}
 }
